@@ -1,4 +1,4 @@
-# Very first steps using Ionic Health to detect user Activity
+# Very first steps using Ionic Health to detect user activity in Android (to start with...)
 
 It's just that... A simple project to demonstrate the use of Ionic Health.
 
@@ -16,42 +16,57 @@ Go to the new created directory
 cd IonicHealth
 ```
 
-Test the project
+Download all dependencies
 
 ```
-ionic serve --lab
+npm install
 ```
 
-When all node.js modules have been downloaded a new browser window will open with the project shown above in the screenshots.
+If you want to try your project with your Android Phone
 
+```
+ionic cordova run android
+```
+
+You'll soon notice you get empty data only. This is because an App to collect your data from your phone sensors. To do it start with Google Fit App that you can download from Google Play. Start using it so that data starts getting collected in your Android phone.
+
+When some time is gone you can play again with this test project App and show the data collected.
+
+Enjoy!
+
+### Some screenshots
+
+![alt text](https://github.com/tcrurav/SpringCrudBasicAuthRestJPAMySQL/blob/master/screenshots/Screenshot-1.png)
+
+After clicking on "Request permission", click on "Show activity" and you'll get raw data:
+
+![alt text](https://github.com/tcrurav/SpringCrudBasicAuthRestJPAMySQL/blob/master/screenshots/Screenshot-2.png)
+
+Check that the data you get is from the last 3 days, and it's labeled with "walking", "running" and "in_vehicle"... that's what this test App does...
+
+### Step by step
+
+This section is for those who want to do it themselves from the beginning.
 
 To create this test project I have followed the instructions of this link:
 https://ionicframework.com/docs/native/health/
 
+Install Android Studio and check you have all SDK requirements:
+https://github.com/2dvisio/cordova-plugin-googlefit#sdk-requirements-for-compiling-the-plugin
+
 Don't forget to read this:
 https://github.com/dariosalvi78/cordova-plugin-health
 
-After that clone this project and try it.
-
-The Database is here:
-https://github.com/tcrurav/SpringCrudBasicAuthRestJPAMySQL/blob/master/db_people.sql
-
-It's interesting that you take the cookies into account when testing the Basic Auth with Postman:
-
-![alt text](https://github.com/tcrurav/SpringCrudBasicAuthRestJPAMySQL/blob/master/cookies.gif)
-
-
-### A Basic, basic, basic version with hard coded users
-
-For such a version of this project use git to checkout the second commit called: 
-
-==> Auth Basic: a bit more complex, https://github.com/tcrurav/SpringCrudBasicAuthRestJPAMySQL/tree/c5ac1f247d51679254c8297a0e459d67287878b7
+To get a Google Api Key follow this:
+https://developers.google.com/fit/android/get-api-key
 
 ### Prerequisites
 
 All you need is... 
 * An editor. I have used Visual Studio Code. Other options are Sublime Text, Atom, etc...
+* Git is not necessary but desirable.
 * A working environment with Ionic.
+* A working environment with Android Studio.
 * More hours than you first could think of...
 
 ## Built With
