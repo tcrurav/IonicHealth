@@ -36,9 +36,9 @@ Enjoy!
 
 ### Some screenshots
 
-Just after launching the App                    |  After "Request permission" and "Show activity"
-:----------------------------------------------:|:----------------------------------------------:
-![alt text](https://github.com/tcrurav/IonicHealth/blob/master/screenshots/Screenshot-1.png)  |  ![alt text](https://github.com/tcrurav/IonicHealth/blob/master/screenshots/Screenshot-2.png)
+Just after launching the App           |  After "Request permission" and "Show activity" |  After "Request permission" and "Show steps"
+:-------------------------------------:|:--------------------------------------:|:-------------------------------------:
+![alt text](https://github.com/tcrurav/IonicHealth/blob/master/screenshots/Screenshot-1.png)  |  ![alt text](https://github.com/tcrurav/IonicHealth/blob/master/screenshots/Screenshot-2.png)  |  ![alt text](https://github.com/tcrurav/IonicHealth/blob/master/screenshots/Screenshot-3.png)
 
 After clicking on "Request permission", click on "Show activity" and you'll get raw data as you see above.
 
@@ -74,6 +74,9 @@ All you need is...
 * [Node JS](https://nodejs.org/es/) - You need it to start working with Ionic. Download the LTS version.
 * [Ionic](https://ionicframework.com/docs/intro/installation/) - Follow this steps to start with Ionic.
 * [Cordova Health Plugin](https://github.com/dariosalvi78/cordova-plugin-health) - A plugin that abstracts fitness and health repositories like Apple HealthKit or Google Fit
+* [Android SDK](https://developer.android.com/studio/?hl=es-419) - The easiest is to install Android Studio.
+* [Fitness Api](https://developers.google.com/fit/android/get-api-key) - Google Fitness Api.
+* [Visual Studio Code](https://code.visualstudio.com/) - An editor.
 
 ## Acknowledgments
 
