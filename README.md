@@ -36,8 +36,9 @@ Enjoy!
 
 ### Some screenshots
 
-![alt text](https://github.com/tcrurav/IonicHealth/blob/master/screenshots/Screenshot-1.png)
-![alt text](https://github.com/tcrurav/IonicHealth/blob/master/screenshots/Screenshot-2.png)
+Just after launching the App                    |  After "Request permission" and "Show activity"
+:----------------------------------------------:|:----------------------------------------------:
+![alt text](https://github.com/tcrurav/IonicHealth/blob/master/screenshots/Screenshot-1.png)  |  ![alt text](https://github.com/tcrurav/IonicHealth/blob/master/screenshots/Screenshot-2.png)
 
 After clicking on "Request permission", click on "Show activity" and you'll get raw data as you see above.
 
