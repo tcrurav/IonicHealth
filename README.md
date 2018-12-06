@@ -60,6 +60,11 @@ https://github.com/dariosalvi78/cordova-plugin-health
 To get a Google Api Key follow this:
 https://developers.google.com/fit/android/get-api-key
 
+To enable the Google Fitness API for your App:
+https://github.com/2dvisio/cordova-plugin-googlefit#how-to-enable-the-google-fitness-api-for-your-application
+
+Check it out! In the last link it's very important that you create the ./platforms/android/ant.properties file; and also is very important that you give a name to your app in config.xml, that match that of the Google Api Key you have created.
+
 ### Prerequisites
 
 All you need is... 
@@ -81,3 +86,4 @@ All you need is...
 ## Acknowledgments
 
 * https://ionicframework.com/docs/native/health/. Ionic first instructions using Health.
+* https://play.google.com/store/apps/details?id=com.google.android.apps.fitness&hl=es_419. Google Fit App.
