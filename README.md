@@ -28,7 +28,7 @@ If you want to try your project with your Android Phone
 ionic cordova run android
 ```
 
-You'll soon notice you get empty data only. This is because an App to collect your data from your phone sensors. To do it start with Google Fit App that you can download from Google Play. Start using it so that data starts getting collected in your Android phone.
+You'll soon notice you get empty data only. This is because you need an App to collect your fitness data from your phone sensors. To do it start with Google Fit App that you can download from Google Play. Start using it so that data starts getting collected in your Android phone.
 
 When some time is gone you can play again with this test project App and show the data collected.
 
