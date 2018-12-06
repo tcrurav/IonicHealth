@@ -36,11 +36,11 @@ Enjoy!
 
 ### Some screenshots
 
-![alt text](https://github.com/tcrurav/SpringCrudBasicAuthRestJPAMySQL/blob/master/screenshots/Screenshot-1.png)
+![alt text](https://github.com/tcrurav/IonicHealth/blob/master/screenshots/Screenshot-1.png)
 
 After clicking on "Request permission", click on "Show activity" and you'll get raw data:
 
-![alt text](https://github.com/tcrurav/SpringCrudBasicAuthRestJPAMySQL/blob/master/screenshots/Screenshot-2.png)
+![alt text](https://github.com/tcrurav/IonicHealth/blob/master/screenshots/Screenshot-2.png)
 
 Check that the data you get is from the last 3 days, and it's labeled with "walking", "running" and "in_vehicle"... that's what this test App does...
 
